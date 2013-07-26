@@ -9,6 +9,11 @@ def run():
     sys.path.insert(0, os.path.join(base, 'python-modargs'))
     sys.path.insert(0, os.path.join(base, 'lamson'))
     sys.path.insert(0, os.path.join(base, 'mail'))
+    try:
+        import mftutor.settings
+    except ImportError:
+        print("Could not import mftutor.settings. Please adjust PYTHONPATH.")
+        return 1
     import lamson.commands
     return lamson.commands.start_command(debug=True)
 
