@@ -1,0 +1,3 @@
+Jinja2==2.7
+daemon==1.0
+lockfile==0.9.1
