@@ -1,0 +1,9 @@
+[submodule "lamson"]
+	path = lamson
+	url = git://github.com/matfystutor/lamson.git
+[submodule "python-modargs"]
+	path = python-modargs
+	url = git://gitorious.org/python-modargs/python-modargs.git
+[submodule "mail"]
+	path = mail
+	url = git://github.com/matfystutor/mail.git
